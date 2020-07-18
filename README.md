@@ -1,7 +1,7 @@
-#Sobre o Discord Clone
+# Sobre o Discord Clone
 Este app foi criado com a template do Typescrit para React.js, sua função é reproduzir a interface semelhante ao app de comunicação Discord, através de componentes reutilizáveis e animados.
 
-##Como executar o Discord Clone
+## Como executar o Discord Clone
 Para executar a aplicação bastar digitar em sua linha de comando yarn start.
 
 # About Discord Clone
