@@ -8,7 +8,7 @@ export const Container = styled.section `
   background-color: transparent;
   
   &.mention {
-    background-color var(--mention-message);
+    background-color: var(--mention-message);
     border-left: 2px solid var(--mention-detail);
     padding-left: 16px; 
   }
@@ -25,6 +25,9 @@ export const Avatar = styled.div `
   border-radius: 50%;
   flex-shrink: 0;
   cursor: pointer;
+  img {
+    
+  }
 
   &.bot {
     background-color: var(--mention-detail);
@@ -39,7 +42,7 @@ export const Message = styled.div `
   min-height: 40px;
   padding: 6px 14px;
   border-radius: 4px;
-  transiton: background-color 180ms ease-in-out;
+  transition: background-color 180ms ease-in-out;
   cursor: pointer;
 
   &:hover {
@@ -48,7 +51,7 @@ export const Message = styled.div `
 `;
 
 export const Header = styled.header `
-  display; flex;
+  display: flex;
   align-items: center;
 
   > strong {

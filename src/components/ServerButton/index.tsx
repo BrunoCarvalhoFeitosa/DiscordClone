@@ -1,6 +1,6 @@
   
 import React from 'react';
-import Logo from '../../assets/logo.svg';
+import userPicture from '../../assets/bruno.jpg';
 import { Button } from './style';
 
 //Interface of props server button
@@ -25,7 +25,7 @@ const ServerButton: React.FC<Props> = ({
       mentions={mentions}
       className={selected ? 'active' : ''}
     >
-      {isHome && <img src={Logo} alt="Call Of Duty" title="Call Of Duty" />}
+      {isHome && <img src={userPicture} alt="Bruno Carvalho Feitosa" title="Bruno Carvalho Feitosa" />}
     </Button>
   );
 };

@@ -13,8 +13,9 @@ const ChannelList: React.FC = () => {
 
       <ChannelButton channelName="Chat-livre" />
       <ChannelButton channelName="Trabalho" />
-      <ChannelButton channelName="CoD Zarzone" />
-      <ChannelButton channelName="CoD Ghosts" />
+      <ChannelButton channelName="CoD Warzone" />
+      <ChannelButton channelName="RocketLeague" />
+      <ChannelButton channelName="Forza Horizon" />
       <ChannelButton channelName="The Last Of Us" />
     </Container>
   );

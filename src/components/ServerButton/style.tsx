@@ -33,7 +33,7 @@ export const Button = styled.button<Props>`
   > img {
     width: 100%;
     height: 100%;
-    filter: invert(1);
+    border-radius: 50%;
   }
 
   &::before {

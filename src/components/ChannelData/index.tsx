@@ -18,7 +18,7 @@ const ChannelData: React.FC = () => {
   return (
     <Container>
         <Messages ref={messagesRef}>
-          {Array.from(Array(15).keys()).map((n) => (
+          {Array.from(Array(5).keys()).map((n) => (
             <ChannelMessage
               key={n}
               author="Bruno Carvalho"
